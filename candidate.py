@@ -19,7 +19,7 @@ if not firebase_admin._apps:
 db = firestore.client()
 
 # Initialize Cohere API
-co = cohere.Client("lKVIZVpT7eR2zBWCIKd8COlPP11XBF5HEppuhPuE")
+co = cohere.Client("")
 
 # =====================================
 # ✅ Streamlit UI
@@ -144,3 +144,4 @@ with st.form("candidate_profile_form"):
             follow_up_question = follow_up_response.generations[0].text
             st.write("🤖 AI Follow-up Question:")
             st.write(f"**Q: {follow_up_question}**")
+
