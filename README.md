@@ -1,4 +1,12 @@
-# InterviewPrep
-This project presents an AI-driven Mock Interview Platform designed to enhance the interview preparation process for students and job seekers. The system leverages Natural Language Processing (NLP), Machine Learning, and Computer Vision techniques to simulate real-world interview scenarios.
-Users can upload resumes, select domains, and interact with an AI interviewer that generates personalized, domain-specific questions and dynamic follow-ups based on user responses. The platform provides real-time feedback on communication, technical accuracy, and behavioral aspects such as confidence, tone, and facial expressions. Post-interview, candidates receive a comprehensive performance analysis, including scores, improvement suggestions, and interpretability-driven insights. 
-Additional features such as tab-switch detection, eye-tracking, and emotion analysis improve engagement monitoring and authenticity. By offering a scalable, unbiased, and data-driven interview experience, this platform empowers candidates to refine their skills, reduce anxiety, and improve readiness for professional opportunities.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
